@@ -12,6 +12,8 @@
 ## スクリプト
 ### npm run init
 - gitbook 初期化
+- SUMMARY.md に記載されている内容を元にmdファイルを生成します
+  - 既に作成済みです
 
 ### npm run start
 - gitbook ローカル起動
