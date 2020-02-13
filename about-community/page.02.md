@@ -1,41 +1,43 @@
-## What is WoT and IoT？
+# CHIRIMEN とは
 
-![WoT](../image/about-community/WoT.png)
-
-w3.orgより引用 https://www.w3.org/WoT/
-
-## What is WoT and IoT？
-Web of Things（WoT）は、実世界のオブジェクトを
-World Wide Webの一部にするためのアプローチ、
-ソフトウェアアーキテクチャスタイル、プログラミングパターンを
-記述するための用語です。
-
-wikipedia.orgより引用
-https://en.wikipedia.org/wiki/Web_of_Things
+CHIRIMEN はセンサーやアクチュエーターなどの物理デバイスを Web ブラウザ技術だけで制御することができる
+開発環境で、ボードコンピュータとその上で動作するソフトウェアを含めた総称です。
 
 
-Internet of Things, IoTとは、様々な「モノ（物）」が
-インターネットに接続され（単に繋がるだけではなく、モノが
-インターネットのように繋がる）、情報交換することにより
-相互に制御する仕組みである。
+CHIRIMEN = 縮緬（織物）
 
-wikipedia.orgより引用
-https://en.wikipedia.org/wiki/Internet_of_things/
+“Web”と“Real”異なる世界を織り込んで
+新しいモノを作っていく
 
 
+# CHIRIMEN の活動
 
-## WoT と IoT のちがい
-WoT：World Wide Webの一部になっている
+# 活動の柱
+## オープンソースソフトウェア
+プロタイプ環境
+Web GPIO
+Web I2C
 
-IoT：インターネットに繋がっている
+Webブラウザの技術だけで、ハードウェア制御の
+開発を出来るようにする事
 
-http://image.slidesharecdn.com/webrtcconf2015-150207032645-conversion-gate02/95/web-of-thingswebrtc-17-638.jpg?cb=1423279786 より引用
+W3C に Web API の提案を念頭に置いた
+ポリフィル開発実装なども含みます。
 
 
-http://image.slidesharecdn.com/element14-141015121227-conversion-gate02/95/the-web-of-things-giving-physical-products-a-digital-voice-6-638.jpg?cb=1413466154 より引用
 
 
-html5experts.jpより引用 https://html5experts.jp/dsuket/12418/
+## オープンソースハードウェア
+開発ボード
+  Echigo Rev.1
+ケース
+シールド
+テストボード
 
-WoT とは、Webブラウザ技術を使ってIoTを利用した
-サービスやアプリケーションを開発できるプラットフォーム
+
+OSSの開発方法・考え方を、ハードウェア
+(ボードコンピュータも対象)に広めること。
+
+ボード本体・ケースなど
+Open Source Hardware JP000003 OSHWA,
+ http://cerQficate.oshwa.org/cerQficaQon-directory/
