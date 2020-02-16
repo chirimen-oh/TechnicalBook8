@@ -1,12 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
-  * [表紙(イラスト)](top.md)
-  * CHIRIMEN Open Hardware コミュニティの活動ついて
-    * [挿絵(イラスト)](about-community/page.00.md)
+  * [CHIRIMEN Open Hardware コミュニティの活動ついて](about-community/page.00.md)
     * [CHIRIMEN とは](about-community/page.01.md)
-    * [オープンソースソフトウェア](about-community/page.02.md)
-    * [オープンソースハードウェア](about-community/page.03.md)
+    * [CHIRIMEN の活動](about-community/page.02.md)
+    * [オープンソースソフトウェア](about-community/page.03.md)
+    * [オープンソースハードウェア](about-community/page.04.md)
+    * [社会貢献](about-community/page.05.md)
   * [コミュニティの歴史](community-history.md)
     * [挿絵(イラスト)](community-history/page.00.md)
     * [年表](community-history/page.01.md)
@@ -15,8 +15,8 @@
     * [挿絵(イラスト)](tutorial/tutorial.md)
     * [TBD](tutorial.md)
   * [作品集(TBD)](works.md)
-    * [ぎたー挿絵(イラスト)](works/guitar/guitar-top.md)
-    * [ぎたー](works/guitar/guitar.md)
-    * [ぴあの挿絵(イラスト)](works/piano/piano-top.md)
-    * [ぴあの](works/piano/piano.md)
+    * [ぎたー](works/guitar/guitar-top.md)
+      * [ぎたー製作](works/guitar/guitar.md)
+    * [ぴあ](works/piano/piano-top.md)
+      * [ぴあの製作](works/piano/piano.md)
 
