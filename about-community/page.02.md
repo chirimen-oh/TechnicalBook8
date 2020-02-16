@@ -1,55 +1,67 @@
 
-
 # CHIRIMEN の活動
 
 ## オープンソースソフトウェア
 - Webブラウザの技術だけで、ハードウェア制御の開発を出来るようにする事
-- この目的のため以下の活動を行っています
-  - W3C へ提案 
-    - [WebGPIO](https://rawgit.com/browserobo/WebGPIO/master/index.html)
-    - WebI2C 
-  - ポリフィル開発実装なども含みます。
 
 
-### プロタイプ環境
-### Web GPIO のドラフト提案
-![WebGPIO](./images/WebGPIO.png)
-https://rawgit.com/browserobo/WebGPIO/master/index.html
+### プロトタイピング環境の構築
+-  ラズベリーパイのOSをカスタマイズし、プロトタイピング環境を構築しています
+  - https://github.com/chirimen-oh/chirimen
+  ![WebI2C](./images/wallpaper-720P.png)
+
+### W3C へ提案 
+#### Web GPIO のドラフト提案
+- [WebGPIO](https://rawgit.com/browserobo/WebGPIO/master/index.html)
+  ![WebGPIO](./images/WebGPIO.png)
 
 ### Web I2C のドラフト提案
-![WebI2C](./images/WebI2C.png)
-https://rawgit.com/browserobo/WebI2C/master/index.html
+- [WebI2C](https://rawgit.com/browserobo/WebI2C/master/index.html) 
+  ![WebI2C](./images/WebI2C.png)
+
+
+### 各種デバイスドライバ
+- https://github.com/chirimen-oh/chirimen-drivers
+
+#### 検証済みの公式ドライバー
+
+- [@chirimen/ads1015](https://www.jsdelivr.com/package/npm/@chirimen/ads1015)
+- [@chirimen/adt7410](https://www.jsdelivr.com/package/npm/@chirimen/adt7410)
+- [@chirimen/gp2y0e03](https://www.jsdelivr.com/package/npm/@chirimen/gp2y0e03)
+- [@chirimen/grove-accelerometer](https://www.jsdelivr.com/package/npm/@chirimen/grove-accelerometer)
+- [@chirimen/grove-gesture](https://www.jsdelivr.com/package/npm/@chirimen/grove-gesture)
+- [@chirimen/grove-light](https://www.jsdelivr.com/package/npm/@chirimen/grove-light)
+- [@chirimen/grove-oled-display](https://www.jsdelivr.com/package/npm/@chirimen/grove-oled-display)
+- [@chirimen/grove-touch](https://www.jsdelivr.com/package/npm/@chirimen/grove-touch)
+- [@chirimen/pca9685](https://www.jsdelivr.com/package/npm/@chirimen/pca9685)
+- [@chirimen/s11059](https://www.jsdelivr.com/package/npm/@chirimen/s11059)
+- [@chirimen/veml6070](https://www.jsdelivr.com/package/npm/@chirimen/veml6070)
+- [@chirimen/vl53l0x](https://www.jsdelivr.com/package/npm/@chirimen/vl53l0x)
+
+#### コントリビュートドライバー
+
+- [@chirimen/ads1x15](https://www.jsdelivr.com/package/npm/@chirimen/ads1x15)
+- [@chirimen/ak8963](https://www.jsdelivr.com/package/npm/@chirimen/ak8963)
+- [@chirimen/amg8833](https://www.jsdelivr.com/package/npm/@chirimen/amg8833)
+- [@chirimen/arduino-stepping-motor](https://www.jsdelivr.com/package/npm/@chirimen/arduino-stepping-motor)
+- [@chirimen/bh1750](https://www.jsdelivr.com/package/npm/@chirimen/bh1750)
+- [@chirimen/bme280](https://www.jsdelivr.com/package/npm/@chirimen/bme280)
+- [@chirimen/bmp180](https://www.jsdelivr.com/package/npm/@chirimen/bmp180)
+- [@chirimen/bmp280](https://www.jsdelivr.com/package/npm/@chirimen/bmp280)
+- [@chirimen/canzasi](https://www.jsdelivr.com/package/npm/@chirimen/canzasi)
+- [@chirimen/ina219](https://www.jsdelivr.com/package/npm/@chirimen/ina219)
+- [@chirimen/mlx90614](https://www.jsdelivr.com/package/npm/@chirimen/mlx90614)
+- [@chirimen/mpu6050](https://www.jsdelivr.com/package/npm/@chirimen/mpu6050)
+- [@chirimen/mpu6500](https://www.jsdelivr.com/package/npm/@chirimen/mpu6500)
+- [@chirimen/neopixel-i2c](https://www.jsdelivr.com/package/npm/@chirimen/neopixel-i2c)
+- [@chirimen/pca9685-pwm](https://www.jsdelivr.com/package/npm/@chirimen/pca9685-pwm)
+- [@chirimen/pcf8591](https://www.jsdelivr.com/package/npm/@chirimen/pcf8591)
+- [@chirimen/sht30](https://www.jsdelivr.com/package/npm/@chirimen/sht30)
+- [@chirimen/tca9548a](https://www.jsdelivr.com/package/npm/@chirimen/tca9548a)
+- [@chirimen/tcs34725](https://www.jsdelivr.com/package/npm/@chirimen/tcs34725)
+- [@chirimen/vl53l1x](https://www.jsdelivr.com/package/npm/@chirimen/vl53l1x)
 
 
 
 
 
-
-## オープンソースハードウェア
-OSSの開発方法・考え方を、ハードウェア(ボードコンピュータも対象)に広めること。
-
-### Echigo Rev.1
-![Echigo Rev.1](./images/CHIRIMEN-board.png)
-
-
-
-これまでの実績
-  
-ケース
-シールド
-テストボード
-
-
-
-ボード本体・ケースなど
-Open Source Hardware JP000003 OSHWA,
- http://cerQficate.oshwa.org/cerQficaQon-directory/
-
-  When think about a new designed single board computer #193
-　https://github.com/chirimen-oh/any-issues/issues/193
-
-
-
-
-先の２つのゴールを多くの人達に（教育，
-デモストレーションなどを通して）社会に広める事 

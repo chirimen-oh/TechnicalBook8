@@ -4,8 +4,9 @@
   * [表紙(イラスト)](top.md)
   * CHIRIMEN Open Hardware コミュニティの活動ついて
     * [挿絵(イラスト)](about-community/page.00.md)
-    * [TBD](about-community/page.01.md)
-    * [TBD](about-community/page.02.md)
+    * [CHIRIMEN とは](about-community/page.01.md)
+    * [オープンソースソフトウェア](about-community/page.02.md)
+    * [オープンソースハードウェア](about-community/page.03.md)
   * [コミュニティの歴史](community-history.md)
     * [挿絵(イラスト)](community-history/page.00.md)
     * [年表](community-history/page.01.md)
