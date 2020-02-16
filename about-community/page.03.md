@@ -10,19 +10,14 @@ OSSの開発方法・考え方を、ハードウェア(ボードコンピュー�
   ![rpi3GpioTester](./images/rpi3GpioTester.jpg)
 
 ### Temp Sensor for CHRMN is a ADT7410 temperature
-- [emp Sensor for CHRMN is a ADT7410 temperature](https://certification.oshwa.org/jp000007.html)
-  ![rpi3GpioTester](./images/rpi3GpioTester.jpg)
+- [Temp Sensor for CHRMN is a ADT7410 temperature](https://certification.oshwa.org/jp000007.html)
+  ![rpi3GpioTester](./images/ADT7410.png)
 
 
+### Echigo Rev.1 ケース 
+- [fundoshi](https://github.com/chirimen-oh/Cases/tree/master/fundoshi)
+  ![fundoshi](./images/fundoshi.jpg)
 
+- [kimono](https://github.com/chirimen-oh/Cases/tree/master/kimono)
+  ![kimono](./images/chirimen_case_build.jpg)
 
-ボード本体・ケースなど
-
-  When think about a new designed single board computer #193
-　https://github.com/chirimen-oh/any-issues/issues/193
-
-
-
-
-先の２つのゴールを多くの人達に（教育，
-デモストレーションなどを通して）社会に広める事 

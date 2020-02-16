@@ -1,26 +1,31 @@
 
 # CHIRIMEN の活動
+1. オープンソースソフトウェア方面
+    - Webブラウザの技術だけで、ハードウェア制御の開発を出来るようにする事
+    - W3C に Web API の提案を念頭に置いたポリフィル開発実装なども含みます。
+2. オープンソースハードウェア方面
+    - OSSの開発方法・考え方を、ハードウェア(ボードコンピュータも対象)に広めること。
+3. 社会貢献面
+    - 上記２つのゴールを多くの人達に（教育，デモなどを通して）社会に広める事
 
 ## オープンソースソフトウェア
-- Webブラウザの技術だけで、ハードウェア制御の開発を出来るようにする事
-
-
 ### プロトタイピング環境の構築
 -  ラズベリーパイのOSをカスタマイズし、プロトタイピング環境を構築しています
   - https://github.com/chirimen-oh/chirimen
   ![WebI2C](./images/wallpaper-720P.png)
 
 ### W3C へ提案 
-#### Web GPIO のドラフト提案
+#### Web GPIO のドラフト
 - [WebGPIO](https://rawgit.com/browserobo/WebGPIO/master/index.html)
   ![WebGPIO](./images/WebGPIO.png)
 
-### Web I2C のドラフト提案
+### Web I2C のドラフト
 - [WebI2C](https://rawgit.com/browserobo/WebI2C/master/index.html) 
   ![WebI2C](./images/WebI2C.png)
 
 
 ### 各種デバイスドライバ
+- W3C に提案中の Web GPIO と Web I2C 用いたポリフィルが下記ドライバー郡です
 - https://github.com/chirimen-oh/chirimen-drivers
 
 #### 検証済みの公式ドライバー
