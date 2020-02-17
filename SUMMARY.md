@@ -12,7 +12,7 @@
     * [年表](community-history/page.01.md)
     * [TBD](community-history/page.02.md)
   * [チュートリアル](tutorial/tutorial.md)
-    * [Hello Wortld](tutorial/hellorealworld.md)
+    * [Hello World](tutorial/hellorealworld.md)
     * [対応デバイスのリスト](tutorial/partslist.md)
   * [作品集(TBD)](works.md)
     * [ぎたー](works/guitar/guitar-top.md)

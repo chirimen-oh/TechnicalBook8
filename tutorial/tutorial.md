@@ -1,8 +1,3 @@
----
-lang: ja
-permalink: /raspi/
----
-
 ## CHIRIMEN for Raspberry Pi チュートリアル
 
 CHIRIMEN for Raspberry Pi を用いた IoT システムプロトタイピングスキル習得のためのチュートリアル資料です。
