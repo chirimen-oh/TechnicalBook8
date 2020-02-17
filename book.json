@@ -1,6 +1,19 @@
 {
   "language": "ja",
   "pdf": {
-    "paperSize": "b5"
-  }
+    "fontSize": 9,
+    "paperSize": "b5",
+    "margin": {
+      "right": 31,
+      "left": 31,
+      "top": 18,
+      "bottom": 18
+    },
+    "headerTemplate": null,
+    "footerTemplate": null
+  },
+  "styles": {
+    "website": "website.css",
+    "pdf": "pdf.css"
+  }  
 }
