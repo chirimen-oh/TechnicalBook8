@@ -44,20 +44,22 @@ CHIRIMEN Raspi の基本的な操作方法は「[L チカしてみよう](sectio
 
 サンプル同様に JS Bin で書いても良いですが、折角ですので、今回は他のオンラインエディタ [JSFiddle](https://jsfiddle.net/) を使ってみましょう。
 
+```
 > Web 上のオンラインサービスは便利ですが、メンテナンスや障害、サービス停止などで利用できなくなることがあります。
 > ローカルでの編集も含め、いくつかのサービスを使いこなせるようにしておくと安心です。
 >
 > 各サービスにはそれぞれ一長一短がありますので、利用シーンに応じて使い分けると良いかもしれません。
+```
 
 ## a. 部品と配線について
 
 このパートでは「[L チカしてみよう](section0.md)」で実施した L チカの配線をそのまま利用します。必要な部品も同じです。
 
-{% cloudinary imgs/section1/b.jpg alt="部品一覧" %}
+![部品一覧](imgs/section1/b.jpg)
 
 LED は、26 番ポートに接続しておいてください。
 
-{% cloudinary imgs/section1/k.png alt="回路図" %}
+![回路図](imgs/section1/k.png)
 
 ## b. HTML/CSS を記載する
 
@@ -115,7 +117,7 @@ GPIO を実際に使う前に、まずは「ボタンを押したら LED の ON/
 
 ここまでできたら JSFiddle の JavaScript の `▷ Run` をクリックして実行してみましょう。`LED ON/OFF` ボタンが表示されたら、ボタンをクリックしてみてください。ディスプレイの丸が、赤 → 黒 → 赤 → 黒 → 赤 → 黒 → とクリックする都度切り替えできるようになったら成功です。
 
-{% cloudinary imgs/section1/LEDOnOff.gif alt="LED On/Offをブラウザ画面上のボタンクリックで実施" %}
+![LED On/Offをブラウザ画面上のボタンクリックで実施](imgs/section1/LEDOnOff.gif)
 
 ## d. ボタンに LED を反応させる
 
@@ -154,7 +156,7 @@ GPIO ポートにかける電圧を Web アプリで変化させたい時には�
 `port.write()` は、出力モードに指定した **GPIO ポートの電圧を切り替える** API です。
 `port.write(1)` で、指定したポートから HIGH (RasPi では 3.3V) の電圧がかかり、`port.write(0)` で LOW(0V) になります。
 
-{% cloudinary imgs/section1/JSFiddle.png alt="ここまでのJSFiddleの画面" %}
+![ここまでのJSFiddleの画面](imgs/section1/JSFiddle.png)
 
 # 3. マウスクリックのかわりにタクトスイッチを使ってみる
 
@@ -175,7 +177,7 @@ GPIO ポートにかける電圧を Web アプリで変化させたい時には�
 
 [タクトスイッチの製品ページ](https://www.alps.com/prod/info/J/HTML/Tact/SnapIn/SKHW/SKHWALA010.html) などにも回路図がありますが、端子が出ている向き (次の図では縦方向) は常に接続されており、それと直行する (横) 方向がボタンによって切り替わります。次の図では左の 4pin スイッチと右の 2pin スイッチ (とジャンパーワイヤ) が同じ回路となります。
 
-{% cloudinary small imgs/section1/tactswitch.png alt="tactswitch" %}
+![tactswitch](imgs/section1/tactswitch.png)
 
 ## a. 準備：画面のボタンをモーメンタリ動作に変えておく
 
@@ -235,13 +237,13 @@ GPIO ポートにかける電圧を Web アプリで変化させたい時には�
 - 前述のタクトスイッチ × 1
 - ジャンパーワイヤー（オスーメス）× 2
 
-{% cloudinary imgs/section1/t.jpg alt="追加する部品" %}
+![追加する部品](imgs/section1/t.jpg)
 
 下図のように、さきほどの LED の配線にタクトスイッチを追加しましょう。この図の例では 2 ピンのタクトスイッチを使っていますが、4 ピンの場合も黄色と黒のジャンパーワイヤの間にボタンでオンオフが切り替わるよう向きに注意してスイッチを配置してください。
 
 <!-- TODO: 4pin タクトスイッチの図も用意してリンクしてあげたい -->
 
-{% cloudinary imgs/section1/s.png alt="スイッチを追加した配線" %}
+![スイッチを追加した配線](imgs/section1/s.png)
 
 ### 今回のスイッチは「プルアップ」回路で接続
 
@@ -257,12 +259,12 @@ GPIO ポートにかける電圧を Web アプリで変化させたい時には�
 
 どうしてこうなるのでしょうか。実は、RasPi の GPIO ポートのいくつかは、初期状態で「プルアップ」されています。プルアップとは、回路を初期状態で「HIGH にしておく」ことですが、CHIRIMEN RasPi で利用可能な GPIO ポートのうち、下記ポート番号がプルアップ状態となっています。
 
-{% cloudinary imgs/section1/PullupPort.png alt="初期状態でPullupされているPortの一覧" %}
+![初期状態でPullupされているPortの一覧](imgs/section1/PullupPort.png)
 
 今回の回路では、このうち、Port 5 を利用しています。
 さきほどの動作となるメカニズムは下記の通りです。
 
-{% cloudinary imgs/section1/s2.png alt="スイッチの動作" %}
+![スイッチの動作](imgs/section1/s2.png)
 
 この動作を頭に入れておきましょう。
 
@@ -365,15 +367,13 @@ Web GPIO API の機能が一通り確認できましたので、次は違う部�
 
 今回は Nch MOSFET「[2SK4017](http://akizukidenshi.com/catalog/g/gI-07597/)」を利用します。
 
-{% cloudinary imgs/section1/mosfet.png alt="mosfet" %}
+![mosfet](imgs/section1/mosfet.png)
 
 プルダウンのGPIOポートを使った典型的な回路は以下のようになります。
   >Note: 図のVCCは、基本的にはRaspberry Pi3の3.3Vや5V端子ではありません。DC負荷用に別に用意した電源を使用するべきです。ちびギアモータを使った次章の例では、モータの消費電力が十分小さいため例外的にRaspberry Pi3の5V端子から電力を得ています。一方GNDはRaspbeery Pi3と、このDC負荷用電源とを共に接続します。
   
 ![NCh MOSFET schematic](imgs/section1/DC3motor-schematic.svg)
-<!--
-{% cloudinary imgs/section1/DC3motor-schematic.svg alt="mosfet schematic" %}
--->
+
 
 ## ギアモータとは
 
@@ -381,17 +381,17 @@ Web GPIO API の機能が一通り確認できましたので、次は違う部�
 
 今回はとても小型なギアモータである、[ちびギアモータ](https://tiisai.dip.jp/?p=2676)を利用します。
 
-{% cloudinary imgs/section1/chibigear_1.jpg alt="ちびギアモータ" %} {% cloudinary imgs/section1/chibigear_2.jpg alt="ちびギアモータ" %}
+![ちびギアモータ](imgs/section1/chibigear_1.jpg)
 
 ## a. 部品と配線について
 
 ちびギアモータ本体に加え、以下のものを用意します。
 
-{% cloudinary imgs/section1/parts.jpg alt="部品一覧" %}
+![部品一覧](imgs/section1/parts.jpg)
 
 次に、先ほどの「タクトスイッチを押したら LED をつけたり消したり」する回路から、LED と LED 用の抵抗を一旦外して、MOSFET と抵抗、ちびギアモータを次のように配置します。
 
-{% cloudinary imgs/section1/DC3motor-2pin.png alt="ちびギアモータの回路図" %}
+![ちびギアモータの回路図](imgs/section1/DC3motor-2pin.png)
 
 回路図の配置を多少調整していますが、黄色のジャンパーピンと黒のジャンパーピンの間をスイッチでオンオフできるように配線するのは同じです。手持ちのスイッチやジャンパワイヤに合わせて上手く配線してみてください。
 
@@ -403,8 +403,6 @@ Web GPIO API の機能が一通り確認できましたので、次は違う部�
 
 実は、この回路は先ほどまでのコード **「d. スイッチに反応するようにする (port.onchange())」** と同じコードで動きます。
 LED が点灯する替わりにちびギアモータが動くようになりました。電圧を加える対象のデバイスが変わっただけで、プログラムで制御する、スイッチのオンオフに連動して電圧を変える処理は同じだからです。
-
-<!-- {% cloudinary imgs/section1/DCFan-Movie.gif alt="ちびギアモータが動作している様子" %} TODO: アニメーション画像が用意でき次第挿入 -->
 
 ## c. しかし... (オチ w)
 

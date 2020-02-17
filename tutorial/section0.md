@@ -1,8 +1,3 @@
----
-layout: tutorial
-lang: ja
-permalink: /raspi/section0
----
 
 # L チカしてみよう (初めての GPIO)
 
@@ -14,7 +9,7 @@ permalink: /raspi/section0
 
 CHIRIMEN for Raspberry Pi は、Raspberry Pi (以下 Raspi) で動作する IoT プログラミング環境です。[Web GPIO API](http://browserobo.github.io/WebGPIO) や [Web I2C API](http://browserobo.github.io/WebI2C) といった JavaScript でハードを制御する API を活用したプログラミングにより、Web アプリ上で Raspi に接続した電子パーツを直接制御できます。
 
-{% cloudinary imgs/section0/CHIRIMENforRaspberryPi3.png alt="CHIRIMEN for Raspberry Pi の活用イメージ" %}
+![CHIRIMEN for Raspberry Pi の活用イメージ](imgs/section0/CHIRIMENforRaspberryPi3.png)
 
 # 2. 事前準備 (機材確認)
 
@@ -24,7 +19,7 @@ CHIRIMEN for Raspberry Pi は、Raspberry Pi (以下 Raspi) で動作する IoT 
 
 CHIRIMEN for Raspberry Pi の起動に最低限必要となる基本ハードウエアは次の通りです。
 
-[{% cloudinary imgs/section0/Raspi3.jpg alt="Raspi の起動に必要なハードウエア一覧" %}](imgs/section0/Raspi3.jpg)
+![Raspi の起動に必要なハードウエア一覧](imgs/section0/Raspi3.jpg)
 
 - Raspberry Pi本体 × 1
   - CHIRIMEN for Raspberry Pi は [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) 、 [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) 、 [Raspberry Pi 4 Model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) の3モデルに対応しています。
@@ -46,7 +41,7 @@ CHIRIMEN for Raspberry Pi の起動に最低限必要となる基本ハードウ
 
 基本ハードウエアに加え「L チカ (えるちか)」を実施するには下記パーツも追加で必要です。
 
-{% cloudinary imgs/section0/L.jpg alt="Lチカに必要なパーツ一覧" %}
+![Lチカに必要なパーツ一覧](imgs/section0/L.jpg
 
 - ブレッドボード × 1
 - リード付き LED × 1
@@ -67,7 +62,7 @@ CHIRIMEN for Raspberry Pi の起動に最低限必要となる基本ハードウ
 機材が揃ったら、いよいよ Raspi を接続して起動してみましょう。基本ハードウエアを下図のように接続してください。(Raspi への電源ケーブルの接続は最後にしましょう)
 - Raspi 4 では電源ケーブルが USB Type C ケーブルとなりますが、基本的な接続方法は以下と同様です
 
-[{% cloudinary imgs/section0/h2.jpg alt="接続方法" %}](imgs/section0/h2.jpg)
+![](imgs/section0/h2.jpg alt)
 
 もしよくわからない場合には、[Raspberry Pi Hardware Guide](https://www.raspberrypi.org/learning/hardware-guide/) なども参照してみると良いでしょう。
 
@@ -78,7 +73,7 @@ CHIRIMEN for Raspberry Pi の起動に最低限必要となる基本ハードウ
 電源を入れると Raspi の microSD コネクタ横の赤い LED が点灯し、OS の起動後、下記のようなデスクトップ画面が表示されたら CHIRIMEN Raspi の起動に成功しています (OS イメージや画面サイズにより細部は異なることがあります)。おめでとうございます！
 
 <!-- TODO: デスクトップ画面のスクリーンショット古い -->
-{% cloudinary imgs/screenshots/20191002_desktop.png alt="CHIRIMEN for Raspberry Pi desktop 画面" %}
+![CHIRIMEN for Raspberry Pi desktop 画面](imgs/screenshots/20191002_desktop.png
 
 ## 残念ながら上記画面が表示されなかった！？
 
@@ -93,7 +88,7 @@ CHIRIMEN Raspi では、ネットワークに繋がずローカルファイル�
 
 ぜひ、最初にインターネットに接続しておきましょう。WiFi の設定は、タスクバーの右上の WiFi アイコンから行えます。
 
-{% cloudinary imgs/section0/wifi.png alt="WiFi設定" %}
+![WiFi設定](imgs/section0/wifi.png
 
 # 4. 「L チカ」をやってみよう
 
@@ -116,11 +111,11 @@ L チカのための配線図は、基本的な作例集（examples）と一緒�
 /home/pi/Desktop/gc/gpio/LEDblink/schematic.png
 ```
 
-{% cloudinary imgs/section0/example-files.png alt="example-files" %}
+![example-files](imgs/section0/example-files.png
 
 それでは、まず先に回路図の画像 `schematic.png` をダブルクリックして見てみましょう。
 
-{% cloudinary imgs/section0/example_LEDblink.png alt="example: LEDblink の配線図" %}
+![example: LEDblink の配線図](imgs/section0/example_LEDblink.png
 
 LED のリード線の方向に注意しながら、この図の通りにジャンパーワイヤやブレッドボードを使って配線してみましょう。
 
@@ -128,7 +123,7 @@ LED のリード線の方向に注意しながら、この図の通りにジャ�
 
 実際に配線してみると、こんな感じになりました。
 
-{% cloudinary imgs/section0/h.jpg alt="配線してみました" %}
+![配線してみました](imgs/section0/h.jpg
 
 ### 参考
 
@@ -151,11 +146,11 @@ L チカのためのサンプルコードは先ほどの配線図と同じフォ
 
 ## ブラウザ画面
 
-[{% cloudinary imgs/section0/browser.png alt="browser" %}](imgs/section0/browser.png)
+![browser](imgs/section0/browser.png)
 
 ## L チカの様子
 
-{% cloudinary imgs/section0/L.gif alt="Lチカ成功" %}
+![Lチカ成功](imgs/section0/L.gif
 
 <!-- TODO: ファイルサイズの小さい WebM 動画などに -->
 
@@ -177,7 +172,7 @@ L チカに成功しましたか？！
 
 既に開いているウィンドウを確実に閉じるには、一度ブラウザを閉じてから、再度ブラウザを起動すると確実です (通常はタブだけ消しても十分です)。
 
-{% cloudinary imgs/section0/b.png alt="ブラウザの再起動" %}
+![ブラウザの再起動](imgs/section0/b.png
 
 ## オンラインの example の実行
 
@@ -186,13 +181,13 @@ L チカに成功しましたか？！
 
 [オンラインの example へのリンク](https://r.chirimen.org/gpio-blink)は、ブラウザを起動後、ブックマークバーにある[Examples](https://r.chirimen.org/examples)のページの中にあります。
 
-{% cloudinary imgs/section0/gpio-blink-online-example.png alt="https://r.chirimen.org/gpio-blink へのリンク" %}
+![https://r.chirimen.org/gpio-blink へのリンク](imgs/section0/gpio-blink-online-example.png
 
 そのまま起動すると下記のような画面になります。(下記スクリーンショットはアクセス直後の画面から JS Bin のタイトルバー部の「Output」タブを 1 回押して非表示にしています)
 
 <!-- TODO: 古いコードの画像になってる -->
 
-{% cloudinary imgs/section0/JSBinLexample.png alt="JS BinでのLチカexample画面" %}
+![JS BinでのLチカexample画面](imgs/section0/JSBinLexample.png
 
 それでは、コードを眺めてみましょう。
 
@@ -258,7 +253,7 @@ Raspi の GPIO 端子は、GND 端子との間に、0V もしくは 3.3V の電�
 
 詳しくは[こちらのサイトの解説](https://tool-lab.com/make/raspberrypi-startup-22/)などを参考にしてみましょう。
 
-{% cloudinary imgs/section0/Raspi3PIN.png alt="Raspi PIN配置図" %}
+![Raspi PIN配置図](imgs/section0/Raspi3PIN.png
 
 ## GPIOPort の処理
 
@@ -270,7 +265,7 @@ LED は一定以上の電圧 (赤色 LED だと概ね 1.8V 程度、青色 LED �
 
 まとめると下図のような流れになります。
 
-{% cloudinary imgs/section0/s.png alt="シーケンス" %}
+![シーケンス](imgs/section0/s.png
 
 ## example を修正してみよう
 
