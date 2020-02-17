@@ -57,7 +57,7 @@ Raspberry Piとの接続方法については、下記回路図を参照くだ�
 
 `/home/pi/Desktop/gc/contrib/examples/i2c-BH1750/BH1750schematic.png`
 
-{% cloudinary imgs/section3/BH1750schematic.png alt="回路図" %}
+![回路図](imgs/section3/BH1750schematic.png)
 
 
 ## b. 接続確認とexampleの実行
@@ -152,13 +152,13 @@ BH1750 の仕様に基づく **データ読み出し処理** をここで実施�
 
 raspi との接続方法については、こちらの回路図を参照ください。
 
-{% cloudinary imgs/section3/VL53L0X-schematic.png alt="回路図" %}
+![回路図](imgs/section3/VL53L0X-schematic.png)
 
 このセンサモジュールは 4 本のピンヘッダ経由で接続します。あらかじめピンヘッダをハンダ付けしておいてください。また、製品によってはチップ表面に黄色の保護フィルムがついているものがあります。剥して使用してください。
 
 ピンの加工例 (保護フィルムが残っている状態)
 
-{% cloudinary half imgs/section3/VL53L0X_comp.jpg alt="加工例" %}
+![加工例](half imgs/section3/VL53L0X_comp.jpg)
 
 ## b. 接続確認と example の実行
 
@@ -243,7 +243,7 @@ main.js
 
 raspi との接続方法については、下記回路図を参照ください。
 
-{% cloudinary imgs/section3/MPU6050schematic.png alt="回路図" %}
+![回路図](imgs/section3/MPU6050schematic.png)
 
 ## b. 接続確認とexampleの実行
 
@@ -369,7 +369,7 @@ I2C モジュールを複数利用するのは一見難しそうに見えるか�
 
   > 使用する I2C モジュールによって、ピンアサイン( `VDD` `GND` `SDA` `SCL` の順番)が異なることがあります。各モジュールのデータシートや本体の印字、CHIRIMEN の Exapmles 等を参考にして間違いの無いように接続して下さい。
 
-{% cloudinary imgs/section3/bh1750-and-adt7410.jpg alt="接続例" %}
+![接続例](imgs/section3/bh1750-and-adt7410.jpg)
 
 **補足：接続を簡単に行える Grove という規格のデバイスを用いれば、 Grove Hub というパーツで簡単に複数のデバイスを接続することが可能です。長所短所ともにありますので、詳しくは [Grove 編チュートリアル](grove.md)をご覧ください。**
 

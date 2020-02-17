@@ -36,13 +36,13 @@ CHIRIMEN for Raspberry Pi （以下「CHIRIMEN RasPi」）を使ったプログ�
 
 [I2C](https://ja.wikipedia.org/wiki/I2C) とは 2 線式の同期式シリアル通信インタフェースです。「アイ・スクエア・シー」とか「アイ・ ツー・シー」などと読みます。I2C では SDA（シリアルデータ）と SCL（シリアルクロック）の 2 本の線で通信を行います。
 
-{% cloudinary half imgs/section2/i2c-bus.png alt="i2c-bus" %}
+![i2c-bus](imgs/section2/i2c-bus.png)
 
 上図のように、i2c の SDA、SCLは複数のモジュール間で共有され、これを「I2C バス」と言います。I2C ではマスターとスレーブの間で通信が行われます。常にマスター側からスレーブ側に要求が行われ、スレーブ側からマスター側へ要求を行うことはできません。
 
 マスターは、スレーブが持つ「SlaveAddress (スレーブアドレス)」を指定して、特定のスレーブとの通信を行います。このため、同じ I2C バス上に同じ SlaveAddress のスレーブを繋ぐことはできません。
 
-{% cloudinary imgs/section2/i2c-bus2.png alt="i2c-bus2" %}
+![i2c-bus2](imgs/section2/i2c-bus2.png)
 
 通信するモジュール同士が同一基板上にない場合には、SDA、SCL の 2 本の通信線に加え電源や GND の線を加えて 4 本のケーブルを用いて接続するのが一般的です。電源電圧はデバイスに応じたものを繋ぐ必要があります。
 
@@ -72,19 +72,19 @@ CHIRIMEN for Raspberry Pi （以下「CHIRIMEN RasPi」）を使ったプログ�
 
 まずは、回路図の画像 `/home/pi/Desktop/gc/i2c/i2c-ADT7410/schematic.png` を開いてください。
 
-{% cloudinary imgs/section2/parts.jpg alt="parts" %}
+![parts](imgs/section2/parts.jpg)
 
 図を見ながらジャンパーワイヤ 4 本で ATD7410 を接続します。 **ADT7410 は 4 本のジャンパーピンを左右逆に繋いでしまうと、短時間で非常に高温になり故障するだけでなく火傷してしまいます** ので、配線には注意してください。
 
-[{% cloudinary imgs/section2/schematic_warning.png alt="schematic" %}](imgs/section2/schematic_warning.png)
+![schematic](imgs/section2/schematic_warning.png)
 
 下記が RasPi 側の接続ピンの位置を拡大した図になります。間違えないよう接続してください。
 
-{% cloudinary imgs/section2/I2C.png alt="I2Cで利用するピンの位置" %}
+![ç](imgs/section2/I2C.png alt="≈" %}
 
 実際に配線した写真は以下の通りです。ADT7410 の表裏にも注意してください。
 
-{% cloudinary imgs/section2/temperature_real.jpg alt="実際の配線写真" %}
+![実際の配線写真](imgs/section2/temperature_real.jpg)
 
 ## b. 接続がうまくいったか確認する
 
@@ -94,7 +94,7 @@ CHIRIMEN for Raspberry Pi （以下「CHIRIMEN RasPi」）を使ったプログ�
 
 正しく接続できていれば (配線を誤ってセンサーを壊してない限り) 下記のような画面が表示されるはずです。
 
-[{% cloudinary imgs/section2/ADT7410.png alt="ADT7410接続中" %}](imgs/section2/ADT7410.png)
+![ADT7410接続中](imgs/section2/ADT7410.png)
 
 `48`という表示が見えます。これは 16 進数表示であり `0x48` という意味です。`0x48` は、ADT7410 の SlaveAddress と思われますが、念のためデータシートも確認してみましょう。
 
@@ -102,14 +102,14 @@ CHIRIMEN for Raspberry Pi （以下「CHIRIMEN RasPi」）を使ったプログ�
 
 データシートの P.17 に「SERIAL BUS ADDRESS」の項があり、ここに SlaveAddress の記載があります。ADT7410 は`0x48`がデフォルトの SlaveAddress で、A0,A1 ピンの HIGH/LOW により SlaveAddeess の下位 2bit を変更できることがわかります。
 
-{% cloudinary imgs/section2/I2CBusAddressOptions.png alt="I2C Bus Address Options" %}
+![I2C Bus Address Options](imgs/section2/I2CBusAddressOptions.png)
 (ADT7410 Data Sheet より抜粋)
 
 [秋月電子の ADT7410 モジュール](http://akizukidenshi.com/catalog/g/gM-06675/) の場合、3.3V に接続している端子側に A0A1 と書かれた端子に半田を付けてショートさせることで SlaveAddress を変更できます。他のデバイスと SlaveAddress が被ってしまった場合や複数の温度センサーを同時に接続したい場合に変更してください。
 
 試しに、一度 RasPi の 3.3V に接続している線を抜いて、もう一度 `i2cdetect -y -r 1` を実行してみてください。
 
-{% cloudinary imgs/section2/ADT7410OFF.png alt="ADT7410の電源OFF" %}
+![ADT7410の電源OFF](imgs/section2/ADT7410OFF.png)
 
 `0x48` が見つからなくなりました。これで、間違いなく ADT7410 の SlaveAddress が`0x48`となっていることが確認できました。再度、先ほど外した 3.3V の線を戻して ADT7410 に電源を供給しておいてください。
 
@@ -119,7 +119,7 @@ SlaveAddress を確認する i2cdetect には WebI2C を使って実装したも
 
 配線と SlaveAddress が確認できましたので、さっそく動かしてみましょう。ADT7410 のためのサンプルコードは先ほどの配線図と同じフォルダ (`/home/pi/Desktop/gc/i2c/i2c-ADT7410/index.html`) に格納されています。ダブルクリックすると、ブラウザが起動し下記のような画面になります。
 
-{% cloudinary imgs/section2/browser.png alt="browser" %}
+![browser](imgs/section2/browser.png)
 
 画面の回路図の下の数値が温度（摂氏）になります。ADT7410 センサに触ると、ゆっくりと温度が上がるはずです。
 

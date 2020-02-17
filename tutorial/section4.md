@@ -57,7 +57,7 @@ CHIRIMEN for Raspberry Pi（以下 「CHIRIMEN RasPi」） を使ったプログ
 
 今回用意するものが多いですが、これまでのチュートリアルで使ったことがあるものばかりですので、ご安心ください。
 
-{% cloudinary imgs/section4/parts-chibi.png alt="利用部品の写真" %}
+![利用部品の写真](imgs/section4/parts-chibi.png)
 
 # 2.まずは仕様通りにつくる
 
@@ -65,7 +65,7 @@ CHIRIMEN for Raspberry Pi（以下 「CHIRIMEN RasPi」） を使ったプログ
 
 Raspberry Pi との接続方法については、下記回路図を参照ください。
 
-{% cloudinary imgs/section4/schematic_new.png alt="回路図" %}
+![回路図](imgs/section4/schematic_new.png)
 
 ## b. 接続確認
 
