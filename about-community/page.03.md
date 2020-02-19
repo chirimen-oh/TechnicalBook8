@@ -2,12 +2,12 @@
 ## プロトタイピング環境の構築
 -  ラズベリーパイのOSをカスタマイズし、プロトタイピング環境を構築しています
   - https://github.com/chirimen-oh/chirimen
-  ![WebI2C](./images/wallpaper-720P.png)
+  ![wallpaper](./images/wallpaper-720P.png)
 
 ## W3C へ提案 
 ### Web GPIO のドラフト
 - [WebGPIO](https://rawgit.com/browserobo/WebGPIO/master/index.html)
-  <img src="./images/WebGPIO.png">
+  ![WebGPIO](./images/WebGPIO.png)
 
 ## Web I2C のドラフト
 - [WebI2C](https://rawgit.com/browserobo/WebI2C/master/index.html) 

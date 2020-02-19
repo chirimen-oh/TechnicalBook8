@@ -19,7 +19,7 @@
     * [4. GPIO/I2C のまとめ](tutorial/section4.md)
     * [Hello World](tutorial/hellorealworld.md)
     * [対応デバイスのリスト](tutorial/partslist.md)
-  * [作品集(TBD)](works.md)
+  * [作品集](works.md)
     * [ぎたー](works/guitar/guitar-top.md)
       * [ぎたー製作](works/guitar/guitar.md)
     * [ぴあ](works/piano/piano-top.md)

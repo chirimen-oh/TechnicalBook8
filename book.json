@@ -1,16 +1,18 @@
 {
   "language": "ja",
   "pdf": {
-    "fontSize": 9,
-    "paperSize": "b5",
-    "margin": {
-      "right": 31,
-      "left": 31,
-      "top": 18,
-      "bottom": 18
-    },
-    "headerTemplate": null,
-    "footerTemplate": null
+      "pageNumbers": true,
+      "fontFamily": "VL Gothic",
+      "fontSize": 10,
+      "paperSize": "b5",
+      "margin": {
+          "right": 0,
+          "left": 0,
+          "top": 0,
+          "bottom": 0
+      },
+      "headerTemplate": null,
+      "footerTemplate": null
   },
   "styles": {
     "website": "website.scss",
