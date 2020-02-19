@@ -23,7 +23,7 @@
 - gitbook ビルド
 
 ### npm run publish
-- git pages へ公開
+- gitpages へ公開
 
 ## pdf, epub
 - TODO

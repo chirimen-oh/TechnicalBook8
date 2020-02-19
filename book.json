@@ -13,7 +13,7 @@
     "footerTemplate": null
   },
   "styles": {
-    "website": "website.css",
-    "pdf": "pdf.css"
+    "website": "website.scss",
+    "pdf": "pdf.scss"
   }  
 }
