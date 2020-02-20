@@ -1,32 +1,101 @@
-.page {
-  .section {    
-    h1 {
-      font-size: 20px;
-    }
-    
-    h2 {
-      font-size: 18px;
-    }
-    
-    h3 {
-      font-size: 16px;
-    }
-    
-    h4 {
-      font-size: 14px;
-    }
-    
-    h5 {
-      font-size: 12px;
-    }
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP|Roboto+Mono|Roboto+Slab&display=swap&subset=japanese);
 
-    img {
-      height: 50%;
-      width: 50%;
-    }
+// .book.font-family-0 {
+//   font-family: "Noto Serif JP", "メイリオ", serif;
+// }
 
-    p {
-      font-size: 10px;
-    }
+// .book.font-family-1 {
+//   font-family: "Noto Sans JP", "メイリオ", sans-serif;
+// }
+
+.book {
+  &.font-family-0 {
+    font-family: "Noto Serif JP", "メイリオ", serif;
+  }
+  
+  &.font-family-1 {
+    font-family: "Noto Sans JP", "メイリオ", sans-serif;
   }
 }
+
+.markdown-section {
+  h1, 
+  h2, 
+  h3, 
+  h4, 
+  h5 {
+    font-family: "Roboto Slab", "Noto Sans JP", sans-serif;
+    font-weight: bold;
+    color: rgb(0,113,188);
+  }
+  
+  h1 { 
+    border-bottom: 1px solid #000; 
+  }
+  
+  h2 {
+    border-bottom: 1px dotted #888;
+  }
+
+  pre,
+  code {
+    font-family: "Roboto Mono", Consolas, "Courier New", courier, monospace;
+  }
+
+  p > img {
+    border: 0;
+    max-width: 50%;
+
+    height: 50%;
+    width: 50%;
+  }    
+}
+
+
+// .markdown-section pre,
+// .markdown-section code {
+//   font-family: "Roboto Mono", Consolas, "Courier New", courier, monospace;
+// }
+
+// .markdown-section img {
+//   height: 50%;
+//   width: 50%;
+// }
+
+// .markdown-section img {
+//   border: 0;
+//   max-width: 50%;
+// }
+
+// .markdown-section h1, 
+// .markdown-section h2, 
+// .markdown-section h3, 
+// .markdown-section h4, 
+// .markdown-section h5 {
+//   font-family: "Roboto Slab", "Noto Sans JP", sans-serif;
+//   font-weight: bold;
+//   color: rgb(0,113,188);
+// }
+
+// .markdown-section h1 { 
+//   border-bottom: 1px solid #000; 
+// }
+
+// .markdown-section h2 {
+//   border-bottom: 1px dotted #888;
+// }
+
+// .markdown-section pre,
+// .markdown-section code {
+//   font-family: "Roboto Mono", Consolas, "Courier New", courier, monospace;
+// }
+
+// .markdown-section img {
+//   height: 50%;
+//   width: 50%;
+// }
+
+// .markdown-section img {
+//   border: 0;
+//   max-width: 50%;
+// }
