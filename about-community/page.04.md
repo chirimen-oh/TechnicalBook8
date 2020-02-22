@@ -1,17 +1,13 @@
+# オープンソースハードウェア
 - OSSの開発方法・考え方を、ハードウェア(ボードコンピュータも対象)に広めること。
 - コミュニティが公開したハードウェア作品は以下の通りです。
 
-### Echigo Rev.1
-- [Echigo Rev.1 Hardware](https://github.com/chirimen-oh/release/tree/master/hardware)
-- [Open Source Hardware JP000003](https://certification.oshwa.org/jp000003.html)
-<br>
-  <img src="./images/CHIRIMEN-board.png" width="50%">
 
 ### rpi3GpioTester
 - [CHIRIMEN rpi3GpioTester](https://github.com/chirimen-oh/accessories/tree/master/forRaspberryPi3/rpi3GpioTester)
 - [Open Source Hardware JP000006](https://certification.oshwa.org/jp000006.html)
 <br>
-  <img src="./images/rpi3GpioTester.jpg" width="50%">
+  <img src="./images/rpi3GpioTester.jpg" width="40%">
 
 ### Temp Sensor for CHRMN is a ADT7410 temperature
 - [Temp Sensor for CHRMN is a ADT7410 temperature](https://github.com/chirimen-oh/accessories/tree/master/grove/adt7410)
@@ -19,13 +15,4 @@
 <br>
   <img src="./images/ADT7410.png" width="50%">
 
-
-### Echigo Rev.1 ケース 
-- [fundoshi](https://github.com/chirimen-oh/Cases/tree/master/fundoshi)
-<br>
-  <img src="./images/fundoshi.jpg" width="50%">
-
-- [kimono](https://github.com/chirimen-oh/Cases/tree/master/kimono)
-<br>
-  <img src="./images/chirimen_case_build.jpg" width="50%">
 
