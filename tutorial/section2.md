@@ -162,7 +162,20 @@ index.html
 main.js
 
 ```js
-{% include_relative examples/section2/s2_1.js -%}
+window.onload = async function mainFunction() {
+  var head = document.querySelector("#ADT7410value");
+  var i2cAccess = await navigator.requestI2CAccess(); // i2cAccessを非同期で取得
+  var port = i2cAccess.ports.get(1); // I2C I/Fの1番ポートを取得
+  var adt7410 = new ADT7410(port, 0x48); // 取得したポートの0x48アドレスをADT7410ドライバで受信する
+  var value;
+  await adt7410.init();
+  for (;;) {
+    // 無限ループ
+    value = await adt7410.read();
+    head.innerHTML = value ? `${value} degree` : "Measurement failure";
+    await sleep(1000);
+  }
+};
 ```
 
 ここで温度センサーの情報を定期的に取得し、画面に出力する処理が行われています。
@@ -239,7 +252,26 @@ example と同じコードを書いても面白くないので、今回は`i2c-A
 次に JavaScript です。今回は定期的なポーリング処理が必要になるので、[GPIO の使い方 c. スイッチに反応するようにする (port.read()を使ってみる)](section1.md#c--portread) の時に書いたコードが参考になります。JSFiddle では `LOAD TYPE` の設定を `On Load` 以外にするのをお忘れなく。
 
 ```js
-{% include_relative examples/section2/s2_2.js -%}
+// ADT7410valueドライバを使わず、自力でADT7410の値を読むサンプル
+
+window.onload = async function mainFunction() {
+  var head = document.querySelector("#ADT7410value");
+  var i2cAccess = await navigator.requestI2CAccess(); // i2cAccessを非同期で取得
+  var port = i2cAccess.ports.get(1); // I2C I/Fの1番ポートを取得
+  var i2cSlaveDevice = await port.open(0x48); // アドレス0x48のI2Cスレーブデバイスを得る
+  var MSB;
+  var LSB;
+  var temperature;
+
+  for (;;) {
+    // 無限ループ
+    MSB = await i2cSlaveDevice.read8(0x00); // これ以下の３行が肝です
+    LSB = await i2cSlaveDevice.read8(0x01);
+    temperature = ((MSB << 8) | (LSB & 0xff)) / 128.0;
+    head.innerHTML = `${temperature} ℃`;
+    await sleep(1000);
+  }
+};
 ```
 
 JavaScript を書いたら、`▷ Run` を押して実行してみましょう。温度センサーの値が表示されるはずです。

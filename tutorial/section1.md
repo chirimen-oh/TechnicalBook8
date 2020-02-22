@@ -101,7 +101,15 @@ GPIO を実際に使う前に、まずは「ボタンを押したら LED の ON/
 早速 JavaScript を書いていきましょう。
 
 ```js
-{% include_relative examples/section1/s1_1.js -%}
+window.onload = function mainFunction() {
+  var onoff = document.getElementById("onoff");
+  var ledView = document.getElementById("ledView");
+  var v = 0;
+  onoff.onclick = function controlLed() {
+    v = v === 0 ? 1 : 0;
+    ledView.style.backgroundColor = v === 1 ? "red" : "black";
+  };
+};
 ```
 
 このコードでは `onoff` 要素と `ledView` 要素を取得し、`onoff` ボタンのクリックイベント発生時に `letview` の色を書き換えるイベントハンドラを登録しています。また、その処理は HTML 要素の読み込み後に実行するよう `window.onload` に設定する関数内に処理を書いています (HTML の読み込み前に処理すると `getElementById()` で要素が取得できません)。
@@ -124,7 +132,19 @@ GPIO を実際に使う前に、まずは「ボタンを押したら LED の ON/
 画面ができたので、いよいよ Web GPIO を使った LED 制御コードを書きます。一度 L チカの時に学んだことを思い出せばできるはずですが、まずは書き換えてみましょう。
 
 ```js
-{% include_relative examples/section1/s1_2.js -%}
+window.onload = async function mainFunction() {
+  var onoff = document.getElementById("onoff");
+  var ledView = document.getElementById("ledView");
+  var v = 0;
+  var gpioAccess = await navigator.requestGPIOAccess();
+  var port = gpioAccess.ports.get(26);
+  await port.export("out");
+  onoff.onclick = function controlLed() {
+    v = v === 0 ? 1 : 0;
+    port.write(v);
+    ledView.style.backgroundColor = v ? "red" : "black";
+  };
+};
 ```
 
 **注意:** JSFiddle 利用時には `LOAD TYPE` を変更するか、`mainFunction` を自分で呼び出すようにするのを忘れずに。
@@ -227,7 +247,31 @@ GPIO ポートにかける電圧を Web アプリで変化させたい時には�
 タクトスイッチから操作する時も同じ処理を呼ぶことになるので、ここで LED の ON/OFF と `ledView` のスタイル切り替えをまとめて関数化しておきましょう。すると次のようなコードになります:
 
 ```js
-{% include_relative examples/section1/s1_3.js -%}
+var port;
+
+function ledOnOff(v) {
+  var ledView = document.getElementById("ledView");
+  if (v === 0) {
+    port.write(0);
+    ledView.style.backgroundColor = "black";
+  } else {
+    port.write(1);
+    ledView.style.backgroundColor = "red";
+  }
+}
+
+window.onload = async function mainFunction() {
+  var onoff = document.getElementById("onoff");
+  var gpioAccess = await navigator.requestGPIOAccess();
+  port = gpioAccess.ports.get(26);
+  await port.export("out");
+  onoff.onmousedown = function onLed() {
+    ledOnOff(1);
+  };
+  onoff.onmouseup = function offLed() {
+    ledOnOff(0);
+  };
+};
 ```
 
 ## b. 部品と配線について
@@ -329,7 +373,45 @@ for (;;) {
 LED の処理と組み合わせた全体のコードは次のようになります:
 
 ```js
-{% include_relative examples/section1/s1_4.js -%}
+var ledPort;
+var switchPort;
+
+function ledOnOff(v) {
+  var ledView = document.getElementById("ledView");
+  if (v === 0) {
+    ledPort.write(0);
+    ledView.style.backgroundColor = "black";
+  } else {
+    ledPort.write(1);
+    ledView.style.backgroundColor = "red";
+  }
+}
+
+window.onload = async function mainFunction() {
+  var onoff = document.getElementById("onoff");
+  var gpioAccess = await navigator.requestGPIOAccess();
+  var val;
+
+  ledPort = gpioAccess.ports.get(26); // LED のポート番号
+  await ledPort.export("out");
+
+  switchPort = gpioAccess.ports.get(5); // タクトスイッチのポート番号
+  await switchPort.export("in");
+
+  onoff.onmousedown = function onLed() {
+    ledOnOff(1);
+  };
+  onoff.onmouseup = function offLed() {
+    ledOnOff(0);
+  };
+
+  for (;;) {
+    val = await switchPort.read(); // Port 5の状態を読み込む
+    val = val === 0 ? 1 : 0; // スイッチは Pull-up なので OFF で 1、LED は OFF で 0 なので反転させる
+    ledOnOff(val);
+    await sleep(100);
+  }
+};
 ```
 
 さて、ここまで出来たらスイッチを押してみてください。LED が押してる間だけ点灯したら成功です。
@@ -343,7 +425,40 @@ LED の処理と組み合わせた全体のコードは次のようになりま�
 `port.onchange()` の説明は後回しにして、さきほどのサンプルを `port.onchange()` を使ったコードに書き換えてみます。
 
 ```js
-{% include_relative examples/section1/s1_5.js -%}
+var ledPort;
+var switchPort; // LED とスイッチの付いているポート
+
+function ledOnOff(v) {
+  var ledView = document.getElementById("ledView");
+  if (v === 0) {
+    ledPort.write(0);
+    ledView.style.backgroundColor = "black";
+  } else {
+    ledPort.write(1);
+    ledView.style.backgroundColor = "red";
+  }
+}
+
+window.onload = async function initialize() {
+  var onoff = document.getElementById("onoff");
+  var gpioAccess = await navigator.requestGPIOAccess();
+  ledPort = gpioAccess.ports.get(26); // LED のポート番号
+  await ledPort.export("out");
+  switchPort = gpioAccess.ports.get(5); // タクトスイッチのポート番号
+  await switchPort.export("in");
+  // Port 5 の状態が変わったタイミングで処理する
+  switchPort.onchange = function toggleLed(val) {
+    // スイッチは Pull-up なので OFF で 1、LED は OFF で 0 と反転させる
+    ledOnOff(val === 0 ? 1 : 0);
+  };
+
+  onoff.onmousedown = function onLed() {
+    ledOnOff(1);
+  };
+  onoff.onmouseup = function offLed() {
+    ledOnOff(0);
+  };
+};
 ```
 
 コードを見ていただけたらお気づきかもしれません。 `port.onchange` は **入力モードの GPIO ポートの「状態変化時に呼び出される関数を設定する」** 機能です。
@@ -372,7 +487,7 @@ Web GPIO API の機能が一通り確認できましたので、次は違う部�
 プルダウンのGPIOポートを使った典型的な回路は以下のようになります。
   >Note: 図のVCCは、基本的にはRaspberry Pi3の3.3Vや5V端子ではありません。DC負荷用に別に用意した電源を使用するべきです。ちびギアモータを使った次章の例では、モータの消費電力が十分小さいため例外的にRaspberry Pi3の5V端子から電力を得ています。一方GNDはRaspbeery Pi3と、このDC負荷用電源とを共に接続します。
   
-![NCh MOSFET schematic](imgs/section1/DC3motor-schematic.svg)
+![NCh MOSFET schematic](imgs/section1/DC3motor-schematic.png)
 
 
 ## ギアモータとは
