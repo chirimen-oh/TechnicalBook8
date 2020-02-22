@@ -8,8 +8,16 @@
   &.font-family-1 {
     font-family: "Noto Sans JP", "メイリオ", sans-serif;
   }
-  width: 100%;
+
 }
+
+.book .book-body .page-wrapper .page-inner {
+  max-width: 1200px !important;
+}
+// .book .book-body .page-wrapper .page-inner section.normal table {
+//   width: 100%;
+//   overflow: auto;
+// }
 
 .markdown-section {
   h1, 
