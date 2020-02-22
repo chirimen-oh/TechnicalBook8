@@ -6,4 +6,4 @@
 3. 社会貢献面
     - 上記２つのゴールを多くの人達に（教育，デモなどを通して）社会に広める事
 
-![chiri](../image/chiri.jpg)
+  <img src="../image/chiri.jpg" width="80%">

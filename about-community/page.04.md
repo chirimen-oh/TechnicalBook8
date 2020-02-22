@@ -4,23 +4,28 @@
 ### Echigo Rev.1
 - [Echigo Rev.1 Hardware](https://github.com/chirimen-oh/release/tree/master/hardware)
 - [Open Source Hardware JP000003](https://certification.oshwa.org/jp000003.html)
-  <img src="./images/CHIRIMEN-board.png">
+<br>
+  <img src="./images/CHIRIMEN-board.png" width="50%">
 
 ### rpi3GpioTester
 - [CHIRIMEN rpi3GpioTester](https://github.com/chirimen-oh/accessories/tree/master/forRaspberryPi3/rpi3GpioTester)
 - [Open Source Hardware JP000006](https://certification.oshwa.org/jp000006.html)
-  <img src="./images/rpi3GpioTester.jpg">
+<br>
+  <img src="./images/rpi3GpioTester.jpg" width="50%">
 
 ### Temp Sensor for CHRMN is a ADT7410 temperature
 - [Temp Sensor for CHRMN is a ADT7410 temperature](https://github.com/chirimen-oh/accessories/tree/master/grove/adt7410)
 - [Open Source Hardware JP000007](https://certification.oshwa.org/jp000007.html)
-  <img src="./images/ADT7410.png">
+<br>
+  <img src="./images/ADT7410.png" width="50%">
 
 
 ### Echigo Rev.1 ケース 
 - [fundoshi](https://github.com/chirimen-oh/Cases/tree/master/fundoshi)
-  <img src="./images/fundoshi.jpg">
+<br>
+  <img src="./images/fundoshi.jpg" width="50%">
 
 - [kimono](https://github.com/chirimen-oh/Cases/tree/master/kimono)
-  <img src="./images/chirimen_case_build.jpg">
+<br>
+  <img src="./images/chirimen_case_build.jpg" width="50%">
 

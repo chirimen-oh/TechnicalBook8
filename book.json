@@ -6,10 +6,10 @@
       "fontSize": 10,
       "paperSize": "b5",
       "margin": {
-          "right": 0,
-          "left": 0,
-          "top": 0,
-          "bottom": 0
+          "right": 5,
+          "left": 5,
+          "top": 5,
+          "bottom": 5
       },
       "headerTemplate": null,
       "footerTemplate": null
