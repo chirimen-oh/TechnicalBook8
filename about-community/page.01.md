@@ -3,7 +3,8 @@ CHIRIMEN はセンサーやアクチュエーターなどの物理デバイス�
 
 ### CHIRIMEN = 縮緬（織物）
 
-![WebxReal](./images/WebxReal.png)
+  <img src="./images/WebxReal.png" width='50%'>
+<!-- ![WebxReal](./images/WebxReal.png) -->
 
 #### “Web” と “Real” 異なる世界を織り込んで新しいモノを作っていく
 

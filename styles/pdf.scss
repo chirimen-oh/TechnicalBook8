@@ -8,6 +8,7 @@
   &.font-family-1 {
     font-family: "Noto Sans JP", "メイリオ", sans-serif;
   }
+  width: 100%;
 }
 
 .markdown-section {
@@ -33,12 +34,4 @@
   code {
     font-family: "Roboto Mono", Consolas, "Courier New", courier, monospace;
   }
-
-  // p > img {
-  //   border: 0;
-  //   max-width: 50%;
-
-  //   height: 50%;
-  //   width: 50%;
-  // }    
 }
