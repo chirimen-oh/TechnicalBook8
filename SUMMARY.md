@@ -19,8 +19,8 @@
     * [2. I2C: 温度センサーを使おう](tutorial/hellorealworld-2.md)
     * [3. もっといろいろしてみよう](tutorial/hellorealworld-3.md)
   * [作品集](works.md)
+    * [ぴあの](works/piano/piano-top.md)
+      * [ぴあの製作](works/piano/piano.md)
     * [ぎたー](works/guitar/guitar-top.md)
       * [ぎたー製作](works/guitar/guitar.md)
-    * [ぴあ](works/piano/piano-top.md)
-      * [ぴあの製作](works/piano/piano.md)
 
