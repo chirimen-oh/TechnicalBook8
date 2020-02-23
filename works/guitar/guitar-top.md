@@ -1,3 +1,3 @@
 # ぎたー
 
-![chiri](../../image/chiri.jpg)
+<img src="../../image/chiri.jpg" width="85%">
