@@ -4,8 +4,10 @@
   * [CHIRIMEN Open Hardware コミュニティの活動ついて](about-community/page.00.md)
     * [CHIRIMEN とは](about-community/page.01.md)
     * [CHIRIMEN の活動](about-community/page.02.md)
-    * [オープンソースソフトウェア](about-community/page.03.00.md)
-      * [各種デバイスドライバ](about-community/page.03.01.md)
+    * [オープンソースソフトウェア](about-community/page.03.00.md)    
+      * [プロトタイピング環境の構築](about-community/page.03.00.md)
+      * [W3C へ提案](about-community/page.03.01.md)
+      * [各種デバイスドライバ](about-community/page.03.02.md)
     * [オープンソースハードウェア](about-community/page.04.00.md)
       * [for Raspberry Pi](about-community/page.04.00.md)
       * [for Echigo](about-community/page.04.01.md)
