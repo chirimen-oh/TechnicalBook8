@@ -15,7 +15,7 @@
     * [コミュニティ活動の事始め](about-community/page.06.md)
   * [コミュニティの歴史](community-history/page.00.md)
     * [挿絵(イラスト)](community-history/page.01.md)
-  * [Hello World](tutorial/hellorealworld.md)
+  * [Hello Real World](tutorial/hellorealworld.md)
     * [1. GPIO: L チカしてみよう](tutorial/hellorealworld-1.md)
     * [2. I2C: 温度センサーを使おう](tutorial/hellorealworld-2.md)
     * [3. もっといろいろしてみよう](tutorial/hellorealworld-3.md)
