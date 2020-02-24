@@ -100,6 +100,6 @@ CHIRIMENの特徴(ブラウザで実行される)を活かして、PC/スマホ/
 [^*1]: http://makezine.jp/event/mft2018/
 [^*2]: ソースコード https://github.com/sizuhiko/chirimen-piano
 [^*3]: WebComponentsを作成するためのライブラリ。https://www.polymer-project.org/
-[^*4]: 当時の最新機種ですが、RaspberryPi4でも動作します
+[^*4]: 当時の最新機種
 
 
