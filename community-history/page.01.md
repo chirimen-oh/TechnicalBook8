@@ -2,12 +2,12 @@
 - KDDI が 旧Mozilla factory（現Web DINO factory） のコンセプトに賛同し<br>同活動に・スポンサー＆メンバーなったのを期にMozOpenHardプロジェクトがスタート
 
 ### 2016年04月
-- "CHIRIMEN's day" オープンソース化達成
+- オープンソース化達成
 - これを機に CHIRIMEN OPEN HARDWARE コミュニティが発足
 
 ### 2016年08月
 - Switch Science より CHIRIMEN ボード（[Echigo Rev.1](https://www.switch-science.com/catalog/2833/)） 販売開始
-- CHRIMEN ボード first firmware image 公開
+- CHRIMEN ボード ファームウェアイメージ 公開
 
 ### 2016年09月
 - CHIRIMEN ボード（[Echigo Rev.1](https://www.switch-science.com/catalog/2833/)） 販売記念ハンズオン開催
@@ -23,6 +23,15 @@
 
 ### 2017年03月
 - CHIRIMEN ボード（[Echigo Rev.1]((https://certification.oshwa.org/jp000003.html))） 最新ファームウェアリリース
+
+### 2017年05月
+- [Android Bazaar and Conference 2017 Spring](http://abc.android-group.jp/2017s/) 出展
+
+### 2017年07月
+- [IEEE Tokyo Young Professionals hackathon](http://sites.ieee.org/sb-keio/ieee-hackathons-2017/) イベントサポート
+
+### 2017年08月
+- [Maker Faire Tokyo 2017](http://makezine.jp/event/mft2017/) 出展
 
 ### 2017年11月
 - CHIRIMEN for Raspberry Pi 3 イメージ　リリース
