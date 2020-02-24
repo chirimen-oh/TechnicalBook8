@@ -1,3 +1,3 @@
 # コミュニティの歴史
 
-表紙
+  <img src="../image/chiri.jpg" width="70%">
