@@ -1,6 +1,6 @@
 ## Example コードを実行しよう
 
-`/home/pi/Desktop/gc/i2c/i2c-ADT7410/index.html` ファイルを開いて実際に動かしてみよう。ブラウザが起動し下図 のような画面になります。
+`/home/pi/Desktop/gc/i2c/i2c-ADT7410/index.html` ファイルを開いて実際に動かしてみよう。ブラウザが起動し下図のような画面になります。
 
 <img src="imgs/section2/browser.png" width="40%">
 
