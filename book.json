@@ -1,4 +1,8 @@
 {
+  "plugins": [
+    "livereload",
+    "theme-official"
+  ],
   "language": "ja",
   "pdf": {
       "pageNumbers": true,

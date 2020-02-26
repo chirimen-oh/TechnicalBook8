@@ -7,3 +7,5 @@
 画面下部に数字がでていますね。これが温度センサーから取得した現在の温度 (摂氏) の表示になります。
 
 **補足**: オンライン版(https://r.chirimen.org/i2c-adt7410) でも同じコードで試せます。
+
+<img src="imgs/i2c-qr.png" padding-left="20px">

@@ -43,3 +43,5 @@
 - [CHIRIMEN rpi3GpioTester](https://certification.oshwa.org/jp000006.html) OSHA 承認
 - [Temp Sensor for CHIRIMEN](https://certification.oshwa.org/jp000007.html) OSHA 承認
 
+### 2020年02月
+- [CHIRIMEN neopixel_i2c_TH](https://certification.oshwa.org/jp000008.html) OSHA 承認

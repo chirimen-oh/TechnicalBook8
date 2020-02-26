@@ -21,6 +21,7 @@
     * [1. GPIO: L チカしてみよう](tutorial/hellorealworld.01.md)
     * [2. I2C: 温度センサーを使おう](tutorial/hellorealworld.02.md)
     * [3. もっといろいろしてみよう](tutorial/hellorealworld.03.md)
+    * [チュートリアル](tutorial/hellorealworld.04.md)
   * 作品集
     * [ぴあの](works/piano/piano.00.md)
       * [CHIRIMENぴあの とは](works/piano/piano.01.md)
