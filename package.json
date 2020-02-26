@@ -15,6 +15,7 @@
     "gh-pages": "^0.12.0",
     "gitbook-cli": "^2.3.0",
     "textlint": "^11.6.3",
+    "textlint-rule-no-mix-dearu-desumasu": "^4.0.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   }
 }
