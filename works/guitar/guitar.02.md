@@ -14,7 +14,7 @@
 以下は私の作品では利用しましたが、なくても動作します。
 
 - USBマウス/キーボード
-- Adafruit PiTFT Plus 480x320 3.5インチTFT
+- Adafruit PiTFT Plus 480×320 3.5インチTFT
 - Adafruit GPIOリボンケーブル - 26ピン
 
 ### ぎたー用に新しく利用したもの

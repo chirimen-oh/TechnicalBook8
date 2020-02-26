@@ -1,7 +1,7 @@
 #### Step 1：SNS, オープンソース等に参加してみよう！
 以下のリンクにアクセス！
 
-##### facebook グループ
+##### Facebook グループ
 - https://www.facebook.com/groups/chirimen/
 <br>
 <img src="./images/facebook.png" width="10%">
