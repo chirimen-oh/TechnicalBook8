@@ -29,11 +29,3 @@
 - シルバーラッカー(100均にあるもの)
 - チップスターの缶(食べ終わったもの)
 
-完成画像は以下のとおりです（MakerFaireでの展示風景です）。
-
-<img src="./images/chirimen-guiter-5.jpg" width="50%">
-
-画面イメージは以下のとおりです。
-
-![](./images/chirimen-guiter-screen.png)
-
