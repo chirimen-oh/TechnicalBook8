@@ -1,7 +1,8 @@
+### CHIRIMEN とは
 CHIRIMEN はセンサーやアクチュエーターなどの物理デバイスを Web ブラウザ技術だけで制御することができる開発環境で、シングルボードコンピュータとその上で動作するソフトウェアを含めた総称です。
 
-### CHIRIMEN = 縮緬（織物）
+#### CHIRIMEN = 縮緬（織物）
 
-  <img src="./images/WebxReal.png" width='50%'>
+<img src="./images/WebxReal.png" width='50%'>
 
-#### “Web” と “Real” 異なる世界を織り込んで新しいモノを作っていく
+##### “Web” と “Real” 異なる世界を織り込んで新しいモノを作っていく
