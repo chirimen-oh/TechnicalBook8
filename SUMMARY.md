@@ -1,16 +1,14 @@
 # Summary
 
 * [CHIRIMEN Open Hardware コミュニティの活動ついて](README.md)
-* [CHIRIMEN とは](about-community/page.01.md)
-* [CHIRIMEN の活動](about-community/page.02.md)
-* [オープンソースソフトウェア](about-community/page.03.00.md)    
-  * [プロトタイピング環境の構築](about-community/page.03.00.md)
-  * [W3C へ提案](about-community/page.03.01.md)
-  * [各種デバイスドライバ](about-community/page.03.02.md)
-* [オープンソースハードウェア](about-community/page.04.00.md)
+  * [CHIRIMEN とは](about-community/page.01.md)
+  * [CHIRIMEN の活動](about-community/page.02.00.md)
+* [CHIRIMEN環境のイメージ](about-community/page.02.01.md)
+  * [関連プロジェクト](about-community/page.02.02.md)
+* [WebGPIO , WebI2C on node.js](about-community/page.03.02.md)
+* [CHIRIMEN accessories](about-community/page.04.00.md)
   * [for Raspberry Pi](about-community/page.04.00.md)
   * [for Echigo](about-community/page.04.01.md)
-* [社会貢献](about-community/page.05.md)
 * [コミュニティ活動の事始め](about-community/page.06.00.md)
   * [Step 1](about-community/page.06.00.md)
   * [Step 2](about-community/page.06.01.md)
@@ -30,4 +28,5 @@
     * [利用したもの](works/guitar/guitar.02.md)
     * [完成画像](works/guitar/guitar.03.md)
     * [操作方法](works/guitar/guitar.04.md)
+* [各種リンク QR コード](about-community/page.07.00.md)
 
