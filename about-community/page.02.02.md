@@ -1,4 +1,4 @@
-### 関連プロジェクト
+### CHIRIMEN 関連プロジェクト
 また、CHIRIMENコミュニティには、いくつかの関連プロジェクトがあります。
 - [WebGPIO , WebI2C on node.js](./page.03.02.md)
     - CHIRIMEN 画面やHMIを持たないコンピュータでCHIRIMENのエッセンスを動作させる
