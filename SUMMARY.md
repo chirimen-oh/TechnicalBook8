@@ -1,6 +1,6 @@
 # Summary
 
-* [CHIRIMEN Open Hardware コミュニティの活動ついて](README.md)
+* [CHIRIMEN Open Hardware コミュニティの活動ついて](README.md)
   * [CHIRIMEN とは](about-community/page.01.md)
   * [CHIRIMEN の活動](about-community/page.02.00.md)
 * [CHIRIMEN環境のイメージ](about-community/page.02.01.md)
