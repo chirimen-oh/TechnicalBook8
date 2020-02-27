@@ -31,5 +31,5 @@
     * [操作方法](works/guitar/guitar.04.md)
 * [各種リンク QR コード](about-community/page.07.00.00.md)
   * [CHIRIMEN for Raspberry Pi](about-community/page.07.00.00.md)
-  * [WebGPIO , WebI2C on node.js](about-community/page.07.00.01.md)
+  * [CHIRIMEN Drivers](about-community/page.07.00.01.md)
 
