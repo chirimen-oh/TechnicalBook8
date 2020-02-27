@@ -1,4 +1,5 @@
-## ボードと機材を配線しよう
+### 2. I2C: 温度センサーを使おう
+#### ボードと機材を配線しよう
 
 <img src="imgs/section2/schematic_warning.png" width="45%">　
 左図と同じように配線してみよう。
