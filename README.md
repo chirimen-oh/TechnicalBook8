@@ -5,5 +5,6 @@ CHIRIMENコミュニティでは、ここでさらにヒトが重要な存在だ
 
 このような環境（プラットホーム）をオープンにデザインし、つくりあげていくことをめざしているのがCHIRIMENコミュニティです。
 
+※ w3.org より引用 https://www.w3.org/WoT/
 
   <img src="./image/chiri.jpg" width="55%">

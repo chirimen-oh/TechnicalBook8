@@ -1,5 +1,5 @@
 ### CHIRIMEN for Raspberry Pi
-- Raspberry Piの標準OS Raspbianをカスタマイズした CHIRIMEN環境を構築しています
+- Raspberry Pi の 標準OS Raspbianをカスタマイズした CHIRIMEN 環境を提供しています
   - https://github.com/chirimen-oh/chirimen
 <br>
   <img src="./images/wallpaper-720P.png" width="75%">
@@ -7,4 +7,4 @@
 - ラズベリーパイの OS におけるプロトタイピング環境の構成図
   <img src="./images/layout.png" width="75%">
 
-- デバイスをコントロールするWebAPIとしてWebGPIOと、WebI2Cが実装されています。
+- デバイスをコントロールする WebAPI として WebGPIO と、WebI2C が実装されています。

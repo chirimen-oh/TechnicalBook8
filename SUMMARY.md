@@ -6,7 +6,7 @@
 * [CHIRIMEN 環境のイメージ](about-community/page.02.01.md)
 * [CHIRIMEN 関連プロジェクト](about-community/page.02.02.md)
   * [CHIRIMEN Drivers](about-community/page.03.02.md)
-  * [CHIRIMEN accessories](about-community/page.04.00.md)
+  * [Accessories for CHIRIMEN](about-community/page.04.00.md)
     * [for Raspberry Pi](about-community/page.04.00.md)
     * [for Echigo](about-community/page.04.01.md)
 * [コミュニティ活動の事始め](about-community/page.06.00.md)
