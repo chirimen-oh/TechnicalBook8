@@ -1,4 +1,4 @@
-### CHIRIMEN accessories
+### CHIRIMEN Accessories
 
 #### for Raspberry Pi
 
