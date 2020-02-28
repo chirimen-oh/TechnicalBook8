@@ -1,7 +1,7 @@
 ### CHIRIMEN とは
 CHIRIMENコミュニティではCHIRIMENと呼ぶ開発環境を開発しています。これはセンサーやアクチュエーターなどの物理デバイスを Webブラウザ技術だけ、すなわちHTML+CSS+JavascrptによるWebアプリケーションで制御することができるものです。
 
-### CHIRIMEN の語源　= 縮緬（織物）
+### CHIRIMEN の語源 = 縮緬（織物）
 
   <img src="./images/WebxReal.png" width='50%'>
 
