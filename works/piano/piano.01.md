@@ -2,7 +2,7 @@
 
 本節で紹介するのは Maker Faire Tokyo 2018[^*1] へ出展したときのデモ作品です。
 
-#### CHIRIMENぴあの とは
+#### CHIRIMEN ぴあの とは
 
 chirimen-piano [^*2] という「ピアノっぽい」アプリを作りました。
 

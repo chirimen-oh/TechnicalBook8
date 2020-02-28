@@ -1,5 +1,5 @@
 ### 2016年02月
-- KDDI が 旧Mozilla factory（現Web DINO factory） のコンセプトに賛同し<br>同活動に・スポンサー＆メンバーなったのを期にMozOpenHardプロジェクトがスタート
+- KDDI が 旧 Mozilla factory（現 Web DINO factory） のコンセプトに賛同し<br>同活動に・スポンサー＆メンバーなったのを期に MozOpenHard プロジェクトがスタート
 
 ### 2016年04月
 - オープンソース化達成

@@ -22,7 +22,7 @@
   * [チュートリアル](hellorealworld/hellorealworld.04.md)
 * 作品集
   * [ぴあの](works/piano/piano.00.md)
-    * [CHIRIMENぴあの とは](works/piano/piano.01.md)
+    * [CHIRIMEN ぴあの とは](works/piano/piano.01.md)
     * [操作方法](works/piano/piano.02.md)
   * [ぎたー](works/guitar/guitar.00.md)
     * [ぎたーの製作](works/guitar/guitar.01.md)
