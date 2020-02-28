@@ -1,7 +1,7 @@
 #### CHIRIMEN Drivers
 <img src="./images/qr-chirimen-drivers.png" width="10%">
 
-#### CHIRIMEN accessories
+#### CHIRIMEN Accessories
 <img src="./images/qr-accessories.png" width="10%">
 
 #### オンライン版 i2c-ADT7410
