@@ -1,16 +1,12 @@
-#### for Echigo
-##### Echigo Rev.1 
-- [Echigo Rev.1 Hardware](https://github.com/chirimen-oh/release/tree/master/hardware)
-- [Open Source Hardware JP000003](https://certification.oshwa.org/jp000003.html)
-<br>
-  <img src="./images/CHIRIMEN-board.png" width="40%">
-
-##### Echigo Rev.1 アクセサリー 
-- [fundoshi](https://github.com/chirimen-oh/Cases/tree/master/fundoshi)
-<br>
-  <img src="./images/fundoshi.jpg" width="40%">
-
-- [kimono](https://github.com/chirimen-oh/Cases/tree/master/kimono)
-<br>
-  <img src="./images/chirimen_case_build.jpg" width="40%">
-
+### for Raspberry Pi Others
+- [prot-hat](https://github.com/chirimen-oh/accessories/blob/master/forRaspberryPi3/prot-hat)
+  - Raspberry pi用のユニバーサル基板
+- [Grove-s11059](https://github.com/chirimen-oh/accessories/blob/master/grove/s11059)
+  - Groveコネクタ仕様のS11059を使ったカラーセンサー
+- [RPi2SeinsmartRelayIF](https://github.com/chirimen-oh/accessories/blob/master/others/RPi2SeinsmartRelayIF)
+  - Seinsmartなどのリレー基板をRaspberryPiでドライブするインターフェースボード
+- [dcfan-guide](https://github.com/chirimen-oh/accessories/tree/master/grove/adt7410)
+  - チュートリアルに出てくる小型DCファンをブレッドボードで使いやすくなります。
+- [neopixel_i2c_TH](https://github.com/chirimen-oh/accessories/blob/master/others/dcfan-guide)
+  - I2CインターフェースのNeopixelLEDドライバ usedbytes氏のオリジナルデザインをスルーホール部品で再構成したものです。
+  - [Open Source Hardware JP000008](https://certification.oshwa.org/jp000008.html)
