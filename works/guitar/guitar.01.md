@@ -8,7 +8,7 @@ chirimen-guiter [^*2] という「ギターっぽい」アプリを作りまし�
 
 このアプリの特徴は以下のとおりです。
 
-- 前節で作成したCHIRIMENぴあのをベースに作られていて、以下の新しいCustomElementsの実装評価を兼ねています
+- 前節で作成したCHIRIMEN ぴあのをベースに作られていて、以下の新しいCustomElementsの実装評価を兼ねています
     - chirimen-ads1015 タグ
 - CHIRIMENでなくても動作するWebアプリである
 

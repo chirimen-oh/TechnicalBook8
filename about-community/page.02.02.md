@@ -1,9 +1,9 @@
 ### CHIRIMEN 関連プロジェクト
-また、CHIRIMENコミュニティには、いくつかの関連プロジェクトがあります。
-- [WebGPIO , WebI2C on node.js](./page.03.02.md)
-    - CHIRIMEN 画面やHMIを持たないコンピュータでCHIRIMENのエッセンスを動作させる
-- [CHIRIMEN accessories](./page.04.00.md)
-    - CHIRIMEN環境を より便利に使えるようするための周辺ハードウェアのコレクション。これもオープンソースハードウェアです。
+また、CHIRIMEN コミュニティには、いくつかの関連プロジェクトがあります。
+- [CHIRIMEN Drivers](./page.03.02.md)
+    - CHIRIMEN 画面やHMIを持たないコンピュータで CHIRIMEN のエッセンスを動作させる
+- [Accessories for CHIRIMEN](./page.04.00.md)
+    - CHIRIMEN 環境を より便利に使えるようするための周辺ハードウェアのコレクション。これもオープンソースハードウェアです。
 
 *1: デバイス：温度や圧力などのセンサーやサーボモーターやLEDなど、秋葉原の電子部品ショップやラジコンショップなどで販売されているような部品～ローレベルデバイス
 

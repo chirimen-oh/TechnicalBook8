@@ -6,7 +6,7 @@
 * [CHIRIMEN 環境のイメージ](about-community/page.02.01.md)
 * [CHIRIMEN 関連プロジェクト](about-community/page.02.02.md)
   * [CHIRIMEN Drivers](about-community/page.03.02.md)
-  * [CHIRIMEN accessories](about-community/page.04.00.md)
+  * [Accessories for CHIRIMEN](about-community/page.04.00.md)
     * [for Raspberry Pi](about-community/page.04.00.md)
     * [for Echigo](about-community/page.04.01.md)
 * [コミュニティ活動の事始め](about-community/page.06.00.md)
@@ -22,7 +22,7 @@
   * [チュートリアル](hellorealworld/hellorealworld.04.md)
 * 作品集
   * [ぴあの](works/piano/piano.00.md)
-    * [CHIRIMENぴあの とは](works/piano/piano.01.md)
+    * [CHIRIMEN ぴあの とは](works/piano/piano.01.md)
     * [操作方法](works/piano/piano.02.md)
   * [ぎたー](works/guitar/guitar.00.md)
     * [ぎたーの製作](works/guitar/guitar.01.md)
