@@ -1,4 +1,4 @@
-## 各種デバイスドライバ
+## CHIRIMEN Drivers
 - W3C に提案中の Web GPIO と Web I2C 用いたポリフィルが下記ドライバー郡です
 - https://github.com/chirimen-oh/chirimen-drivers
 

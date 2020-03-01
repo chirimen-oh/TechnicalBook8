@@ -1,8 +1,8 @@
-# ぴあの製作
+### ぴあの製作
 
 本節で紹介するのは Maker Faire Tokyo 2018[^*1] へ出展したときのデモ作品です。
 
-## CHIRIMENぴあの とは
+#### CHIRIMEN ぴあの とは
 
 chirimen-piano [^*2] という「ピアノっぽい」アプリを作りました。
 
@@ -17,7 +17,7 @@ chirimen-piano [^*2] という「ピアノっぽい」アプリを作りまし�
 
 CHIRIMENの特徴(ブラウザで実行される)を活かして、PC/スマホ/Raspberry Piのどこからでも遊ぶことができるようになっています。
 
-## 利用したもの
+#### 利用したもの
 
 - Raspberry Pi 3 model B+[^*4]
 - TOSHIBA microSDHC 16GB

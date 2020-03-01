@@ -1,5 +1,8 @@
+### 2015年03月
+- CHIRIMEN の WebAPI のコアとなっている[WebGPIO](http://browserobo.github.io/WebGPIO/), [WebI2C](http://browserobo.github.io/WebI2C/)　素案が公開
+
 ### 2016年02月
-- KDDI が 旧Mozilla factory（現Web DINO factory） のコンセプトに賛同し<br>同活動に・スポンサー＆メンバーなったのを期にMozOpenHardプロジェクトがスタート
+- KDDI が 旧 Mozilla factory（現 Web DINO factory） のコンセプトに賛同し<br>同活動に・スポンサー＆メンバーなったのを期に MozOpenHard プロジェクトがスタート
 
 ### 2016年04月
 - オープンソース化達成
@@ -39,9 +42,18 @@
 ### 2018年10月
 - CHIRIMEN for Raspberry Pi 3 イメージ Ver.2018/10/10　リリース
 
+### 2018年12月
+- CHIRIMEN with TY51822r3 リリース
+
+### 2019年07月
+- CHIRIMEN with micro:bit リリース
+
+## 2019年10月
+- node-web-i2c、node-web-gpioリリース
+
 ### 2020年01月
 - [CHIRIMEN rpi3GpioTester](https://certification.oshwa.org/jp000006.html) OSHA 承認
 - [Temp Sensor for CHIRIMEN](https://certification.oshwa.org/jp000007.html) OSHA 承認
 
 ### 2020年02月
-- [CHIRIMEN neopixel_i2c_TH](https://certification.oshwa.org/jp000008.html) OSHA 承認
+- [NEOPIXEL_I2C_TH](https://certification.oshwa.org/jp000008.html) OSHA 承認
