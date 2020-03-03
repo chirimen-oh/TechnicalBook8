@@ -22,7 +22,7 @@
   * [2. I2C: 温度センサーを使おう](hellorealworld/hellorealworld.02.md)
   * [3. もっといろいろしてみよう](hellorealworld/hellorealworld.03.md)
   * [チュートリアル](hellorealworld/hellorealworld.04.md)
-* 作品集
+* [作品集](works/piano/piano.00.md)
   * [ぴあの](works/piano/piano.00.md)
     * [CHIRIMEN ぴあの とは](works/piano/piano.01.md)
     * [操作方法](works/piano/piano.02.md)

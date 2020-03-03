@@ -48,7 +48,7 @@
 ### 2019年07月
 - CHIRIMEN with micro:bit リリース
 
-## 2019年10月
+### 2019年10月
 - node-web-i2c、node-web-gpioリリース
 
 ### 2020年01月
