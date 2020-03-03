@@ -7,4 +7,4 @@ CHIRIMEN コミュニティでは、ここでさらにヒトが重要な存在�
 
 ※ w3.org より引用 https://www.w3.org/WoT/
 
-  <img src="./image/chiri.jpg" width="60%">
+  <img src="./image/chiri.jpg" width="50%">
