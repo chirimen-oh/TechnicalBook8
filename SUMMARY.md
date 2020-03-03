@@ -15,7 +15,6 @@
   * [Step 1](about-community/page.06.00.md)
   * [Step 2](about-community/page.06.01.md)
 * [コミュニティの歴史](community-history/page.00.md)
-  * [年表](community-history/page.01.md)
 * [Hello Real World](hellorealworld/hellorealworld.00.00.md)
   * [機材の準備](hellorealworld/hellorealworld.00.02.md)
   * [1. GPIO: L チカしてみよう](hellorealworld/hellorealworld.01.md)
