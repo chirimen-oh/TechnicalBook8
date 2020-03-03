@@ -17,7 +17,7 @@
     "footerTemplate": null
   },
   "styles": {
-    "website": "website.scss",
-    "pdf": "pdf.scss"
+    "website": "website.css",
+    "pdf": "pdf.css"
   }  
 }
