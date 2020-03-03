@@ -1,18 +1,17 @@
 {
   "plugins": [
-    "livereload",
-    "theme-official"
+    "livereload"
   ],
   "language": "ja",
   "pdf": {
-    "pageNumbers": false,
+    "pageNumbers": true,
     "fontSize": 12,
     "paperSize": "b5",
     "margin": {
         "right": 0,
         "left": 0,
-        "top": 36,
-        "bottom": 36
+        "top": 18,
+        "bottom": 18
     },
     "headerTemplate": null,
     "footerTemplate": null

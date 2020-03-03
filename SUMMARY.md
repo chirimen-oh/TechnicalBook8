@@ -1,8 +1,8 @@
 # Summary
 
 * [CHIRIMEN Open Hardware コミュニティの活動ついて](README.md)
-  * [CHIRIMEN とは](about-community/page.01.md)
-  * [CHIRIMEN の活動](about-community/page.02.00.md)
+* [CHIRIMEN とは](about-community/page.01.md)
+* [CHIRIMEN の活動](about-community/page.02.00.md)
 * [CHIRIMEN 環境のイメージ](about-community/page.02.01.md)
 * [CHIRIMEN 関連プロジェクト](about-community/page.02.02.md)
   * [CHIRIMEN Drivers](about-community/page.03.02.md)
