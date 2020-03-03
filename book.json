@@ -6,7 +6,7 @@
   "pdf": {
     "pageNumbers": true,
     "fontSize": 12,
-    "paperSize": "b5",
+    "paperSize": "a4",
     "margin": {
         "right": 0,
         "left": 0,
