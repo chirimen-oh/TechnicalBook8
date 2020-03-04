@@ -14,26 +14,6 @@ chirimen-guiter [^*2] という「ギターっぽい」アプリを作りまし�
 
 CHIRIMENの特徴(ブラウザで実行される)を活かして、PC/スマホ/Raspberry Piのどこからでも遊ぶことができるようになっています。
 
-# ぎたー
-
-<img src="../../image/chiri.jpg" width="50%">
-
-### ぎたーの製作
-
-本節で紹介するのは Maker Faire Tokyo 2019[^*1] へ出展したときのデモ作品です。
-
-#### CHIRIMENぎたーとは
-
-chirimen-guiter [^*2] という「ギターっぽい」アプリを作りました。
-
-このアプリの特徴は以下のとおりです。
-
-- 前節で作成したCHIRIMEN ぴあのをベースに作られていて、以下の新しいCustomElementsの実装評価を兼ねています
-    - chirimen-ads1015 タグ
-- CHIRIMENでなくても動作するWebアプリである
-
-CHIRIMENの特徴(ブラウザで実行される)を活かして、PC/スマホ/Raspberry Piのどこからでも遊ぶことができるようになっています。
-
 ## 利用したもの
 
 ### ぴあのから流用したもの
