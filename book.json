@@ -11,8 +11,8 @@
     "margin": {
         "right": 0,
         "left": 0,
-        "top": 12,
-        "bottom": 12
+        "top": 6,
+        "bottom": 6
     },
     "headerTemplate": null,
     "footerTemplate": null
