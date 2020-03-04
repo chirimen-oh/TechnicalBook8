@@ -32,4 +32,3 @@
   * [CHIRIMEN for Raspberry Pi](about-community/page.07.00.00.md)
   * [CHIRIMEN Drivers](about-community/page.07.00.01.md)
 * [Special Thanks](thanks.md)
-
