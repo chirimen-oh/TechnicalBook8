@@ -25,7 +25,7 @@
     * [操作方法](works/piano/piano.02.md)
   * [ぎたー](works/guitar/guitar.00.md)
     * [CHIRIMENぎたーとは](works/guitar/guitar.01.md)
-    * [操作方法](works/guitar/guitar.03.md)
+    * [操作方法](works/guitar/guitar.04.md)
 * [各種リンク QR コード](about-community/page.07.00.00.md)
   * [CHIRIMEN for Raspberry Pi](about-community/page.07.00.00.md)
   * [CHIRIMEN Drivers](about-community/page.07.00.01.md)
