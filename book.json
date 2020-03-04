@@ -2,7 +2,8 @@
   "plugins": [
     "livereload"
   ],
-  "language": "ja",
+"language": "ja",
+  "fontFamily": "sans-serif",
   "pdf": {
     "pageNumbers": true,
     "fontSize": 12,
