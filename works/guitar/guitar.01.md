@@ -14,9 +14,9 @@ chirimen-guiter [^*2] という「ギターっぽい」アプリを作りまし�
 
 CHIRIMENの特徴(ブラウザで実行される)を活かして、PC/スマホ/Raspberry Piのどこからでも遊ぶことができるようになっています。
 
-## 利用したもの
+### 利用したもの
 
-### ぴあのから流用したもの
+#### ぴあのから流用したもの
 
 - Raspberry Pi 3 model B+[^*3]
 - TOSHIBA microSDHC 16GB
@@ -33,7 +33,7 @@ CHIRIMENの特徴(ブラウザで実行される)を活かして、PC/スマホ/
 - Adafruit PiTFT Plus 480×320 3.5インチTFT
 - Adafruit GPIOリボンケーブル - 26ピン
 
-### ぎたー用に新しく利用したもの
+#### ぎたー用に新しく利用したもの
 
 - ADS1015搭載 12BitADC 4CH 可変ゲインアンプ付き
 - JST to Breadboard Jumper (3-pin) x4本

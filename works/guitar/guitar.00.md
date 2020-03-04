@@ -1,4 +1,4 @@
 # ぎたー
 
-<img src="../../image/chiri.jpg" width="50%">
+<img src="../../image/chiri.jpg" width="85%">
 
