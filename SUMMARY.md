@@ -3,30 +3,30 @@
 * [CHIRIMEN Open Hardware コミュニティの活動ついて](README.md)
 * [CHIRIMEN とは](about-community/page.01.md)
 * [CHIRIMEN の活動](about-community/page.02.00.md)
-* [CHIRIMEN 環境のイメージ](about-community/page.02.01.md)
-* [CHIRIMEN 関連プロジェクト](about-community/page.02.02.md)
-  * [CHIRIMEN for Raspberry Pi の SD カードを作成する](hellorealworld/hellorealworld.00.01.md)
-  * [CHIRIMEN Drivers](about-community/page.03.02.md)
-  * [Accessories for CHIRIMEN](about-community/page.04.00.md)
-    * [for Raspberry Pi](about-community/page.04.00.md)
-    * [for Raspberry Pi Others](about-community/page.04.01.md)
-    * [for Echigo](about-community/page.04.02.md)
-* [コミュニティ活動の事始め](about-community/page.06.00.md)
-* [コミュニティの歴史](community-history/page.00.md)
-* [Hello Real World](hellorealworld/hellorealworld.00.00.md)
-  * [機材の準備](hellorealworld/hellorealworld.00.02.md)
-  * [1. GPIO: L チカしてみよう](hellorealworld/hellorealworld.01.md)
-  * [2. I2C: 温度センサーを使おう](hellorealworld/hellorealworld.02.md)
-  * [3. もっといろいろしてみよう](hellorealworld/hellorealworld.03.md)
-  * [チュートリアル](hellorealworld/hellorealworld.04.md)
-* [作品集](works/piano/piano.00.md)
-  * [ぴあの](works/piano/piano.00.md)
-    * [CHIRIMEN ぴあの とは](works/piano/piano.01.md)
-    * [操作方法](works/piano/piano.02.md)
-  * [ぎたー](works/guitar/guitar.00.md)
-    * [CHIRIMENぎたーとは](works/guitar/guitar.01.md)
-    * [操作方法](works/guitar/guitar.04.md)
-* [各種リンク QR コード](about-community/page.07.00.00.md)
-  * [CHIRIMEN for Raspberry Pi](about-community/page.07.00.00.md)
-  * [CHIRIMEN Drivers](about-community/page.07.00.01.md)
-* [Special Thanks](thanks.md)
+* CHIRIMEN 環境のイメージ](about-community/page..md)
+* CHIRIMEN 関連プロジェクト](about-community/page..md)
+  * CHIRIMEN for Raspberry Pi の SD カードを作成する](hellorealworld/hellorealworld.00.01.md)
+  * CHIRIMEN Drivers](about-community/page..md)
+  * Accessories for CHIRIMEN
+    * for Raspberry Pi
+    * for Raspberry Pi Others
+    * for Echigo
+* コミュニティ活動の事始め
+* コミュニティの歴史
+* Hello Real World
+  * 機材の準備
+  * 1. GPIO: L チカしてみよう
+  * 2. I2C: 温度センサーを使おう
+  * 3. もっといろいろしてみよう
+  * チュートリアル
+* 作品集
+  * ぴあの
+    * CHIRIMEN ぴあの とは
+    * 操作方法
+  * ぎたー
+    * CHIRIMENぎたーとは
+    * 操作方法
+* 各種リンク QR コード
+  * CHIRIMEN for Raspberry Pi
+  * CHIRIMEN Drivers
+* Special Thanks
